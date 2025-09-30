@@ -24,7 +24,7 @@ automating the purchase flow in the demo e-commerce site [SauceDemo](https://www
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-user/cypress-rpa.git
+   git clone https://github.com/riedelmanu/test-cypress.git
    cd cypress-rpa
    ```
 
@@ -90,8 +90,8 @@ describe('Purchase flow in SauceDemo', () => {
       cy.get('#add-to-cart-sauce-labs-backpack').click()
       cy.get('.shopping_cart_link').click()
       cy.get('#checkout').click()
-      cy.get('#first-name').type('Manu')
-      cy.get('#last-name').type('Riedel')
+      cy.get('#first-name').type('Luis')
+      cy.get('#last-name').type('Rodriguez')
       cy.get('#postal-code').type('3260')
       cy.get('#continue').click()
       cy.get('#finish').click()
