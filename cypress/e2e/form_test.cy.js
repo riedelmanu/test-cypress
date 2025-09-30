@@ -15,10 +15,6 @@ describe('Flujo de compra en SauceDemo con distintos usuarios', () => {
       cy.get('#user-name').type(user.name)
       cy.get('#password').type('secret_sauce')
       cy.get('#login-button').click()
-<<<<<<< HEAD
-=======
-
->>>>>>> 756fb1dbf89053bad341dfa7876d98ff89e0a643
       cy.get('#add-to-cart-sauce-labs-backpack').click()
       cy.get('.shopping_cart_link').click()
       cy.get('#checkout').click()
@@ -33,9 +29,5 @@ describe('Flujo de compra en SauceDemo con distintos usuarios', () => {
       )
     })
   })
-<<<<<<< HEAD
-})
-=======
 
 })
->>>>>>> 756fb1dbf89053bad341dfa7876d98ff89e0a643
